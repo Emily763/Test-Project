@@ -1,6 +1,21 @@
 /*<weight>: Use a value from 300 to 800*/
 body{
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav{
+  width: 100%;
+  min-height: 30px;
+  background-color: lightcyan;
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
 .group{
