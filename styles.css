@@ -24,6 +24,10 @@ nav a{
   margin-left: auto;
 }
 
+form{
+  align-content: center;
+}
+
 p{
   padding: 20px;
   margin-right: auto;
