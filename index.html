@@ -44,30 +44,41 @@
                     <li>1tbs butter</li>
                     <li>2tbs cream</li>
             </ul>
-       </div> <!-- END Group -->
-       <div>
-            <form>
+            <form action="/submit-form" method="post">
+                <label>
+                    <p>
+                        Name (first and last):
+                        <input type="text" name="name">
+                    </p>
+                </label>
+
+                <label>
                 <p>
-                    Name
+                    Email:
+                    <input type="email" name="email">
                 </p>
-                <input type="text" name="name">
+                </label>
+
+                <label>
                 <p>
-                    Email 
+                    Phone Number:
+                    <input type="text" name="number">
                 </p>
-                <input type="email" name="email">
+                </label>
+
+                <label>
                 <p>
-                    Phone Number 
+                    Comments:
+                    <textarea type="subject" name="comments" cols="30" rows="10" placeholder="enter text here...."></textarea>
                 </p>
-                <input type="number" name="number">
-                <p>
-                    Messages 
-                </p>
-                <textarea name="messages" cols="30" rows="10">Enter message here......</textarea>
-                <br>
+                </label>
                 <button>
                     Submit 
                 </button>
             </form>
+       </div> <!-- END Group -->
+       <div>
+        
        </div>
 
     </body>
